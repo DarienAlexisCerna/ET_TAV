@@ -1,0 +1,169 @@
+{
+  "asistencias": [
+    {
+      "username": "JUAN",
+      "apellido": "MEDINA",
+      "rut": "23232323232",
+      "seccion": "",
+      "id": "1"
+    },
+    {
+      "username": "darien",
+      "apellido": "Cerna",
+      "rut": "21.55.4172-k",
+      "seccion": "",
+      "id": "2"
+    },
+    {
+      "username": "Darien",
+      "apellido": "asdas",
+      "rut": 21312312321,
+      "seccion": "023D",
+      "id": "3"
+    },
+    {
+      "username": "bruno",
+      "apellido": "rodriguez",
+      "rut": 215980570,
+      "seccion": "023d",
+      "id": "4"
+    },
+    {
+      "username": "bruno",
+      "password": "rodriguez",
+      "rut": 215980570,
+      "seccion": "023d",
+      "id": "4"
+    },
+    {
+      "username": "juana",
+      "apellido": "maria",
+      "rut": 21321321,
+      "seccion": "ds2d",
+      "id": "5"
+    },
+    {
+      "username": "aaa",
+      "apellido": "aaa",
+      "rut": 231412421312,
+      "seccion": "dasd",
+      "id": "6"
+    },
+    {
+      "username": "darien",
+      "password": "cerna",
+      "rut": 21312312,
+      "isactive": false,
+      "id": "7"
+    },
+    {
+      "username": "juan",
+      "password": "medina",
+      "rut": 1321312321,
+      "isactive": false,
+      "id": "8"
+    },
+    {
+      "nombre": "bruno",
+      "apellido": "rodriguez",
+      "rut": 215890570,
+      "seccion": "023ds",
+      "id": "yQfs-kG"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "username": "cachupin",
+      "password": "duoc",
+      "role": "usuario",
+      "isactive": true
+    },
+    {
+      "id": 0,
+      "username": "21.554.172-k",
+      "password": "1234",
+      "rut": "",
+      "role": "Academico",
+      "isactive": true
+    },
+    {
+      "id": 0,
+      "username": "1234",
+      "password": "1234",
+      "rut": "",
+      "role": "Academico",
+      "isactive": true
+    },
+    {
+      "id": 0,
+      "username": "aasdasda",
+      "password": "1234",
+      "rut": "",
+      "role": "Servicios",
+      "isactive": true
+    },
+    {
+      "id": 0,
+      "username": "1234",
+      "password": "1234",
+      "role": "Servicios",
+      "isactive": true
+    },
+    {
+      "id": "sCl8Ye9",
+      "username": "bruno",
+      "password": "rodrigguez",
+      "role": "dsakdsa",
+      "isactive": true
+    },
+    {
+      "id": "NxbJSRN",
+      "username": "bruno",
+      "password": "12345",
+      "role": "dsakdsa",
+      "isactive": true
+    },
+    {
+      "username": "juana",
+      "password": "maria123",
+      "role": "Academico",
+      "isactive": true,
+      "id": "63caTu8"
+    },
+    {
+      "id": "VGzO8EL",
+      "username": "",
+      "password": "",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "username": "juana",
+      "password": "peres",
+      "role": "Academico",
+      "isactive": true,
+      "id": "tV_pv17"
+    },
+    {
+      "username": "juanita",
+      "password": "rupertina",
+      "role": "Servicios",
+      "isactive": true,
+      "id": "rRHVJcf"
+    }
+  ],
+  "palabras": [
+    {
+      "id": "d7fd",
+      "username": "Darien",
+      "palabra": "123"
+    },
+    {
+      "id": "524e",
+      "username": "Darien",
+      "palabra": "123",
+      "hora": "14:10:18"
+    }
+  ]
+}

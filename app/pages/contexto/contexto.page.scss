@@ -1,0 +1,121 @@
+ion-content{
+    --background: #e0dfe6;
+    #header{
+        height: 100%;
+        background-image: url("/assets/rosado.jpg");
+        display: flex;
+        flex-direction: column;
+        color: #ffffff;
+        border-radius: 0px 0px 20px 20px;
+
+        #app-bar{
+            height: 60px;
+            padding: 0 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            ion-icon{
+                font-size: 24px;
+                margin-left: 15px;
+            }
+        }
+        p{
+            text-align: center;
+            font-size: 25px;
+            margin-bottom: 45px;
+            line-height: 5.5;
+
+        }
+
+        h2{
+            text-align: center;
+            font-weight: bold;
+            margin: 0;
+            font-size: 20px;
+            letter-spacing: 1px;
+            margin-top: 5px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+    }
+    .custom2{
+        box-shadow: 10px;
+        position: absolute;
+        top: 85%;
+        left: 5%;
+        right: 5%;
+        border-radius: 15px;
+        background: #ffffff;
+        }
+    .custom{
+        box-shadow: 100px;
+        position: absolute;
+        top: 15%;
+        left: 5%;
+        right: 5%;
+        border-radius: 15px;
+        background: #ffffff;
+        text-align: center;
+
+        img{
+            width: 130px;
+        }
+
+        ion-card-title{
+            text-align: center;
+            font-size: 30px;
+        }
+
+        ion-card-subtitle{
+            text-align: center;
+            font-size: 9px;
+        }
+        
+        h1{
+            font-weight: bold;
+            font-size: 15px;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        p{
+            text-align: center;
+            font-size: 15px;
+            margin-bottom: 45px;
+        }
+        .boton{
+            height: 40px;
+            --box-shadow: none;
+            text-transform: 16px;
+            letter-spacing: 0;
+            font-weight: 400;
+            color: #fff;
+        }
+        .line-text{
+            padding: 1px;
+            margin-top: 10px;
+            position: relative;
+            height: 20px;
+
+            .lines{
+                height: 1px;
+                background: #858585;
+                display: block;
+            }
+            .text{
+                position: absolute;
+                top:-8px;
+                left: 50%;
+                transform: translateX(-50%);
+                background: #fff;
+                padding: 0 15px;
+                font-size: 11px;
+                font-weight: 500;
+                color: #5e5e5e;
+            }
+        }
+    }
+}
+
+.fuente{
+    font-family: 'Oswald', sans-serif;
+}

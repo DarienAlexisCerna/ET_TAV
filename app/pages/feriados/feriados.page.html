@@ -1,0 +1,28 @@
+<ion-header class="fuente">
+  <ion-toolbar class="fuente">
+    <ion-buttons slot="start" class="fuente">
+        <ion-icon slot="icon-only" name="arrow-back" color="primary" routerLink="/estudiante"></ion-icon>
+    </ion-buttons>
+   <ion-title color="primary">Feriados 2022</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content class="fuente">
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col size="12" size-lg="3" size-md="4" size-sm="6" size-xs="12"
+          *ngFor="let feriado of feriados; let i=index">
+          <ion-card>
+            <ion-card-header>
+                <ion-card-subtitle>
+                  <span class="fuente">{{ feriado.fecha }}</span></ion-card-subtitle>
+                <ion-card-title class="fuente">{{ feriado.nombre }}</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+            </ion-card-content>
+          </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start" >
+      <ion-back-button defaultHref="/"
+        text="back"
+        color="success" 
+        name="arrow-undo-outline"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Informacion</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Información
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-card class="Texto" style="color:black">
+    Esta app funciona para facilitarle el registro de la asistencia a los profesores, evitando así confusiones al momento de registrar la asistencia , el profesor generará un código qr y los alumnos tendrán que escanearlos mediante esta APP lo por cual los dejará presente, estos deberán iniciar sesión para poder generar el código
+  </ion-card>
+  <img src="assets/pantallazo.png">
+  <ion-card class="Texto" style="color:black">
+    En el apartado de login, los estudiantes podrán iniciar sesión para poder escanear el código qr generado para quedar presentes.
+
+  </ion-card>
+  <ion-card class="Texto" style="color:black">
+    En el apartado de registro, podrán registrarse ingresando sus datos los alumnos que aún no tengan una cuenta creada para poder posteriormente escanear el código
+  </ion-card>
+</ion-content>

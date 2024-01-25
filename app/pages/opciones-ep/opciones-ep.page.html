@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title style="text-align: center;">Bienvenido a RegistrAPP!!</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+
+  <ion-card class="fondo">
+
+    <ion-card-content style="text-align: center">
+      <img src="assets/Captura.PNG" alt="Imagen Captura">
+    </ion-card-content>
+
+    <ion-button (click)="redirectprofesor()" expand="block">Docente</ion-button>
+
+    <ion-button (click)="redirectRegistro()" expand="full">Usuario</ion-button>
+
+  </ion-card>
+
+</ion-content>

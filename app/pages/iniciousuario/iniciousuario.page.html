@@ -1,0 +1,48 @@
+<ion-header [translucent]="true">
+
+  <ion-toolbar color="primary">
+
+   <ion-buttons slot="start">
+
+   </ion-buttons>
+
+   <ion-title style="text-align: center;">Bienvenido {{nombre}}</ion-title>
+
+
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true" class="ion-text-center">
+  <div class="class" class="textogrande">
+    <ion-card class="fondo" style="color: rgb(255, 255, 255);">
+      <ion-card-header class="fondo">
+        <ion-card-content>
+          <img src="assets/Captura.PNG">
+        </ion-card-content>
+      </ion-card-header>
+  
+      <div [ngClass]="{'parpadeo': mensajeParpadeante}">
+        {{ mensajenuevo1 }}
+      </div><br> 
+      <div [ngClass]="{'parpadeo': mensajeParpadeante}">
+        {{ mensajenuevo }}
+      </div>
+  
+      <ion-button (click)="redirectLogin()">
+        Ir al login
+      </ion-button>
+      <ion-button (click)="redirectRegistro()">
+        Ir a registrarme
+      </ion-button>
+      <ion-button (click)="redirectcamara()">Ir a camara</ion-button>
+      <ion-button (click)="cerrarSesion()" color="warning" shape="round">
+        Cerrar Sesión
+      </ion-button>
+    </ion-card>
+  
+  </div>
+
+  
+</ion-content>
+

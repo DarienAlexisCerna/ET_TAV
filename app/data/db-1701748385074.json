@@ -1,0 +1,209 @@
+{
+  "asistencias": [
+    {
+      "username": "JUAN",
+      "apellido": "MEDINA",
+      "rut": "23232323232",
+      "seccion": "",
+      "id": 1
+    },
+    {
+      "username": "darien",
+      "apellido": "Cerna",
+      "rut": "21.55.4172-k",
+      "seccion": "",
+      "id": 2
+    },
+    {
+      "username": "Darien",
+      "apellido": "asdas",
+      "rut": 21312312321,
+      "seccion": "023D",
+      "id": 3
+    },
+    {
+      "username": "bruno",
+      "apellido": "rodriguez",
+      "rut": 215980570,
+      "seccion": "023d",
+      "id": 4
+    },
+    {
+      "username": "bruno",
+      "password": "rodriguez",
+      "rut": 215980570,
+      "seccion": "023d",
+      "id": 4
+    },
+    {
+      "username": "juana",
+      "apellido": "maria",
+      "rut": 21321321,
+      "seccion": "ds2d",
+      "id": 5
+    },
+    {
+      "username": "aaa",
+      "apellido": "aaa",
+      "rut": 231412421312,
+      "seccion": "dasd",
+      "id": 6
+    },
+    {
+      "username": "darien",
+      "password": "cerna",
+      "rut": 21312312,
+      "isactive": false,
+      "id": 7
+    },
+    {
+      "username": "juan",
+      "password": "medina",
+      "rut": 1321312321,
+      "isactive": false,
+      "id": 8
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "username": "cachupin",
+      "password": "duoc",
+      "role": "usuario",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "username": "juan123",
+      "password": "1234",
+      "rut": "",
+      "isactive": true
+    },
+    {
+      "id": 3,
+      "username": "felipe",
+      "password": "1234",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": 4,
+      "username": "daur",
+      "password": "123",
+      "email": "",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": 5,
+      "username": "Darien",
+      "password": "1234",
+      "email": "darienc-aq@@fjam-copm,",
+      "role": "profesor",
+      "isactive": true
+    },
+    {
+      "id": 6,
+      "username": "juan",
+      "password": "12345",
+      "email": "",
+      "role": "preso",
+      "isactive": true
+    },
+    {
+      "id": 7,
+      "username": "dasd",
+      "password": "asdasd",
+      "email": "asdasdsa",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": 19,
+      "username": "",
+      "password": "",
+      "email": "",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": 20,
+      "username": "12345",
+      "password": "12345",
+      "email": "1231",
+      "role": "12345",
+      "isactive": true
+    },
+    {
+      "id": 21,
+      "username": "",
+      "password": "",
+      "email": "",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": 22,
+      "username": "1234",
+      "password": "1234",
+      "role": "Academico",
+      "isactive": true
+    },
+    {
+      "id": 23,
+      "username": "minecraft",
+      "password": "1234",
+      "role": "Academico",
+      "isactive": true
+    },
+    {
+      "id": 24,
+      "username": "njuan123",
+      "password": "1234",
+      "role": "Academico",
+      "isactive": true
+    },
+    {
+      "id": 25,
+      "username": "Bastian",
+      "password": "1234",
+      "role": "Academico",
+      "isactive": true
+    },
+    {
+      "id": 26,
+      "username": "juan123456",
+      "password": "1234",
+      "role": "Academico",
+      "isactive": true
+    },
+    {
+      "username": "12345",
+      "password": "12345",
+      "role": "Servicios",
+      "isactive": true,
+      "id": 27
+    },
+    {
+      "username": "1234",
+      "password": "1234",
+      "role": "Servicios",
+      "isactive": true,
+      "id": 28
+    },
+    {
+      "username": "1234",
+      "password": "1234",
+      "role": "Academico",
+      "isactive": true,
+      "id": 29
+    },
+    {
+      "username": "juan",
+      "password": "123456",
+      "role": "Servicios",
+      "isactive": true,
+      "id": 30
+    }
+  ]
+}

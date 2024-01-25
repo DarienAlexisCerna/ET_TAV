@@ -1,0 +1,64 @@
+<!-- Tipos de letras utilizadas-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+
+
+<ion-content>
+<div id="header">
+  <div id="app-bar">
+    <!-- Flecha para devolverse -->
+    <ion-icon name="arrow-back" routerLink="/sesion"></ion-icon>
+    <!-- Logo de la aplicacion -->
+    <div></div>
+  </div>
+
+
+
+</div>
+<div class="wrapper">
+
+<!-- Mensaje que muestra si el formulario es valido o no.
+  
+  <ion-list-header>
+    <ion-label>Formulario Válido: {{formulario.valid}} </ion-label>
+  </ion-list-header> 
+
+  -->
+
+
+  <form #formulario="ngForm" (ngSubmit) ="onSubmit()">
+    <ion-card class="form-wrapper">
+      <ion-card-content>
+        <div class="line-text">
+          <span class="lines"></span>
+          <span class="text">¡Reestablecer!</span>
+        </div>
+        <!-- Contraseña que debe ingresar el usuario, es obligatorio y esta validado -->
+        <ion-item>
+          <ion-icon name="lock-closed"></ion-icon>
+          <ion-input type="password" placeholder="Contraseña" name="password" value="" [(ngModel)]= "usuario.password"
+          required></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-icon name="lock-closed"></ion-icon>
+          <ion-input type="password" placeholder="Repite la Contraseña" name="password2" value="" 
+          required></ion-input>
+        </ion-item>
+        <!-- Boton submit que esta desactivado hasta que se ingrese el email y contraseña -->
+        <ion-button  expand="block" [disabled] ="formulario.invalid" type="submit" (click)="nueva()" routerLink="/sesion"> 
+          Reestablecer
+        </ion-button>
+
+      </ion-card-content>
+    </ion-card>
+</form>
+</div>
+</ion-content>

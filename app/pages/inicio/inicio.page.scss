@@ -1,0 +1,49 @@
+.texto{
+    background-color:pink
+
+}
+
+.color{
+    color:aqua
+}
+
+.fondo{
+    background-color:rgb(95, 95, 172)
+
+}
+
+.color{
+    color:aqua
+}
+
+.parpadeo {
+
+  font-size: 20px; 
+  font-weight: bold; 
+  color: #ffffff; 
+
+    animation: parpadeo 1s infinite alternate;
+  }
+  
+  @keyframes parpadeo {
+    
+    0% {
+      opacity: 5;
+    }
+    100% {
+      opacity: 0.5;
+    }
+
+  }
+
+
+  .class{
+    width: 100%;
+    margin: auto;
+   }
+
+   .textogrande {
+    font-size: 20px; 
+    font-weight: bold; 
+    color: #ffffff; 
+  }

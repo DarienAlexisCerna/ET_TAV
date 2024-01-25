@@ -1,0 +1,43 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/" text="Back" color="light"></ion-back-button>
+    </ion-buttons>
+    <ion-title size="large">Registrar Usuario</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Registrar usuario</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <form>
+    <ion-item>
+      <ion-label position="floating">Nombre: </ion-label>
+      <ion-input type="text" name="txtNombre" placeholder="Aaron" 
+            [(ngModel)]="newregistrar.username"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">contraseña: </ion-label>
+      <ion-input type="password" name="txtTipo" placeholder="Rodriguez" 
+            [(ngModel)]="newregistrar.password"></ion-input>
+    </ion-item>
+
+    
+    <ion-item>
+      <ion-label position="floating">Rol: </ion-label>
+      <ion-input type="text" name="txtTipo" placeholder="" 
+            [(ngModel)]="newregistrar.role"></ion-input>
+    </ion-item>
+    
+
+    <ion-button (click)="crearRegistrar()" expand="block" color="success" shape="round">
+      Crear registrar
+    </ion-button>
+
+
+  </form>
+</ion-content>

@@ -1,0 +1,33 @@
+
+
+
+1. crear carpeta IonicCrud 
+2. crear carpeta data
+3. crear archivo animalitos.json y almacenar en carpeta data 
+4. en la carpeta data, instalar json: npm install -g json-server
+5. en la carpeta data, iniciar el servidor de json: 
+   json-server --watch juan.json --host 0.0.0.0 --port 3300
+
+
+npm install @capacitor/android     
+npx cap add android     
+npm install angularx-qrcode --save 	
+npm install -D @types/qrcode --save
+npm install @ionic/pwa-elements
+ionic cap sync android
+npm run build
+
+
+
+Crear servicio:
+ionic g s servicios/apicrud
+
+   <ion-item>
+      <ion-label position="floating">Asignaturas: </ion-label>
+      <ion-select formControlName="rol">
+        <ion-select-option value="Academico">lenguaje</ion-select-option>
+        <ion-select-option value="Servicios">Servicios</ion-select-option>
+      </ion-select>
+      <ion-input type="text" name="txtTipo" placeholder="" 
+      [(ngModel)]="newregistrarp.role"></ion-input>
+    </ion-item>
